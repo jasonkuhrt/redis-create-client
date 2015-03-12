@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonkuhrt/redis-client.git"
+    "url": "https://github.com/jasonkuhrt/redis-create-client.git"
   },
   "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
-  "name": "redis-client",
-  "homepage": "https://github.com/jasonkuhrt/redis-client",
+  "name": "redis-create-client",
+  "homepage": "https://github.com/jasonkuhrt/redis-create-client",
   "version": "0.0.1",
   "main": "lib/index.js",
   "description": "Better way to create redis clients in iojs",
@@ -27,6 +27,6 @@
     "redis": "^0.12.1"
   },
   "bugs": {
-    "url": "https://github.com/jasonkuhrt/redis-client/issues"
+    "url": "https://github.com/jasonkuhrt/redis-create-client/issues"
   }
 }
