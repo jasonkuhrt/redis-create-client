@@ -1,32 +1,32 @@
 {
-  "name": "redis-client",
-  "version": "0.0.0",
-  "description": "Better way to create redis clients in iojs",
-  "main": "lib/index.js",
+  "license": "MIT",
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register",
     "start": "npm test -- --watch",
     "dev": "npm start",
     "prepublish": "babel --out-dir lib/ src/"
   },
+  "dependencies": {
+    "bluebird": "^2.9.13",
+    "lodash.defaults": "^3.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/jasonkuhrt/redis-client.git"
   },
   "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jasonkuhrt/redis-client/issues"
-  },
+  "name": "redis-client",
   "homepage": "https://github.com/jasonkuhrt/redis-client",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "description": "Better way to create redis clients in iojs",
   "devDependencies": {
     "babel": "^4.7.8",
     "chai": "^2.1.1",
     "mocha": "^2.2.1",
     "redis": "^0.12.1"
   },
-  "dependencies": {
-    "bluebird": "^2.9.13",
-    "lodash.defaults": "^3.0.0"
+  "bugs": {
+    "url": "https://github.com/jasonkuhrt/redis-client/issues"
   }
 }
